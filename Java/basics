@@ -1,1 +1,45 @@
+Exception Handling in Java
+👉 Exception handling is a mechanism to handle runtime errors so that the normal flow of the program can be maintained.
 
+The developer generally knows where an error may occur while writing code, so exceptions are handled to avoid program termination.
+
+Types of Exceptions
+Java exceptions are mainly divided into two types:
+
+1️⃣ Checked Exceptions
+✅ Identified by the Java compiler at compile time
+✅ Must be handled using try-catch or declared using throws
+
+Examples:
+
+InterruptedException
+FileNotFoundException
+IOException
+SQLException
+FileReader fr = new FileReader("file.txt"); // Checked exception
+📌 If not handled, the compiler gives an error.
+
+2️⃣ Unchecked Exceptions
+✅ Not identified by the compiler
+✅ Occur at runtime
+✅ These are subclasses of RuntimeException
+
+Examples:
+
+ArithmeticException
+NullPointerException
+ArrayIndexOutOfBoundsException
+NumberFormatException
+int a = 10 / 0; // ArithmeticException
+📌 Compiler does not force handling.
+
+Exception Handling Keywords
+Java provides 5 main keywords: try, catch, finally, throw, throws
+
+throws Keyword ✅
+Used to declare an exception
+Used at the method level
+Mainly used for checked exceptions
+Does not handle the exception, only passes it to the calling method
+Syntax:
+returnType methodName() throws ExceptionName {
