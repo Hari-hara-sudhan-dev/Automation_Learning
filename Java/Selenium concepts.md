@@ -308,3 +308,158 @@ If you want, I can also show:
 ✅ Dropdown handling in Selenium  
 ✅ Difference between dropdown and radio button  
 ✅ Real-time examples 😊
+In Selenium, a **WebElement** represents an HTML element (like button, textbox, radio button, etc.) on a web page.
+
+***
+
+## ✅ Common WebElement Methods in Selenium
+
+Here are the most important **WebElement methods**:
+
+***
+
+## 🔹 1. `click()`
+
+👉 Used to click on an element
+
+```java
+driver.findElement(By.id("login")).click();
+```
+
+***
+
+## 🔹 2. `sendKeys()`
+
+👉 Used to enter text into input fields
+
+```java
+driver.findElement(By.id("username")).sendKeys("admin");
+```
+
+***
+
+## 🔹 3. `clear()`
+
+👉 Clears text from input field
+
+```java
+driver.findElement(By.id("username")).clear();
+```
+
+***
+
+## 🔹 4. `getText()`
+
+👉 Gets visible text from element
+
+```java
+String text = driver.findElement(By.id("msg")).getText();
+System.out.println(text);
+```
+
+***
+
+## 🔹 5. `getAttribute()`
+
+👉 Gets value of attribute
+
+```java
+String value = driver.findElement(By.id("email")).getAttribute("value");
+```
+
+***
+
+## 🔹 6. `isDisplayed()`
+
+👉 Checks if element is visible
+
+```java
+if (driver.findElement(By.id("logo")).isDisplayed()) {
+    System.out.println("Logo is visible");
+}
+```
+
+***
+
+## 🔹 7. `isEnabled()`
+
+👉 Checks if element is enabled
+
+```java
+if (driver.findElement(By.id("submit")).isEnabled()) {
+    System.out.println("Button is enabled");
+}
+```
+
+***
+
+## 🔹 8. `isSelected()`
+
+👉 Checks if checkbox/radio is selected
+
+```java
+if (driver.findElement(By.id("male")).isSelected()) {
+    System.out.println("Selected");
+}
+```
+
+***
+
+## 🔹 9. `submit()`
+
+👉 Submits a form
+
+```java
+driver.findElement(By.id("form")).submit();
+```
+
+***
+
+## 🔹 10. `getTagName()`
+
+👉 Gets HTML tag name
+
+```java
+String tag = driver.findElement(By.id("username")).getTagName();
+```
+
+***
+
+## 🔹 11. `getCssValue()`
+
+👉 Gets CSS property value
+
+```java
+String color = driver.findElement(By.id("text")).getCssValue("color");
+```
+
+***
+
+## ✅ Quick Summary
+
+| Method         | Use                 |
+| -------------- | ------------------- |
+| click()        | Click element       |
+| sendKeys()     | Enter text          |
+| clear()        | Clear text          |
+| getText()      | Read visible text   |
+| getAttribute() | Get attribute value |
+| isDisplayed()  | Check visibility    |
+| isEnabled()    | Check if enabled    |
+| isSelected()   | Check selection     |
+
+***
+
+## 🧠 Simple Tip:
+
+👉 **WebElement methods are actions you perform on web page elements**
+
+***
+
+If you want next:
+✅ Selenium interview questions  
+✅ Real-time examples  
+✅ Complete form automation code
+
+Just tell me 👍
+
