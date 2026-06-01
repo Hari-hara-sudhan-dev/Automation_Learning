@@ -1140,5 +1140,269 @@ Check login, payment, etc.
 * Interview questions on Agile
 
 Just tell 👍
+Good catch 👏 — you’re right to ask this. I didn’t ignore it intentionally; Scrum is the most asked in interviews, so I focused there first. Now let’s clearly explain the **other Agile frameworks** in an easy way 👇
+
+***
+
+# ✅ 1. Kanban (Very Simple & Practical)
+Here’s a **simple, exam-friendly explanation** of everything you asked 👇
+
+***
+
+# ✅ What is Jira?
+
+**Jira** is a tool used to **track work, bugs, and project progress**.
+
+👉 Mostly used by **software teams (developers & testers)**
+
+***
+
+## 🔷 Simple meaning:
+
+👉 Jira = **Task management + Bug tracking tool**
+
+***
+
+## ✅ Why we use Jira (Purpose)
+
+We use Jira to:
+
+* ✅ Create and track tasks
+* ✅ Report bugs/issues
+* ✅ Assign work to team members
+* ✅ Track progress of project
+* ✅ Manage Agile projects (Scrum/Kanban)
+
+***
+
+## 📌 Example:
+
+If you find a bug in login:
+
+* You create a **ticket in Jira**
+* Add details (steps, expected, actual result)
+* Assign it to developer
+
+👉 Developer fixes → status updated → you retest
+
+***
+
+# ✅ What is Kanban in Jira?
+
+**Kanban** is a way to **manage and visualize work** using a board.
+
+***
+
+## 🔷 Kanban Board in Jira:
+
+It shows tasks in columns like:
+
+```
+To Do  →  In Progress  →  Done
+```
+
+***
+
+## ✅ How Kanban is used in Jira:
+
+1. Create tasks (tickets)
+2. Place them in **To Do**
+3. Move to **In Progress** when working
+4. Move to **Done** when finished
+
+👉 Everything is visible on the board
+
+***
+
+## 📌 Example:
+
+* Bug created → To Do
+* Developer working → In Progress
+* Bug fixed → Done
+
+***
+
+# ✅ Advantages of Jira
+
+* ✅ Easy to track bugs and tasks
+* ✅ Gives clear project progress
+* ✅ Good for Agile (Scrum/Kanban)
+* ✅ Improves team collaboration
+* ✅ Organizes work efficiently
+
+***
+
+# ✅ Disadvantages of Jira
+
+* ❌ Can be complex for beginners
+* ❌ Too many features (confusing at first)
+* ❌ Needs proper setup and maintenance
+* ❌ Can be slow if not configured well
+
+***
+
+# ✅ In Short:
+
+* **Jira** → tool to manage tasks & bugs
+* **Kanban in Jira** → visual board to track work
+* Helps teams **work better and faster**
+
+***
+
+If you want, I can also give:
+✅ Jira workflow (step-by-step)  
+✅ Sample bug report in Jira  
+✅ Scrum vs Kanban (easy comparison) 👍
+
+## 👉 What is Kanban?
+
+**Kanban = Visual way to manage work using a board**
+
+***
+
+## 🧠 Easy Example:
+
+Imagine a board with columns:
+
+```
+To Do → In Progress → Done
+```
+
+Tasks move from left → right
+
+***
+
+## ✅ Example (Software project):
+
+* “Create login page” → To Do
+* Developer starts → In Progress
+* Finished → Done
+
+***
+
+## ✅ Key Points:
+
+* No fixed sprint (continuous work)
+* Work is visual
+* Limit work (don’t overload)
+
+***
+
+## ✅ Simple Line:
+
+👉 **Kanban = Work flows continuously using a visual board**
+
+***
+
+# ✅ 2. Extreme Programming (XP)
+
+## 👉 What is XP?
+
+**XP = Agile method focused on high-quality coding and fast feedback**
+
+***
+
+## ✅ Key Practices:
+
+### 🔹 1. Pair Programming
+
+👉 Two developers work together on the same code
+
+***
+
+### 🔹 2. Continuous Testing
+
+👉 Test code again and again
+
+***
+
+### 🔹 3. Small Releases
+
+👉 Deliver software frequently
+
+***
+
+## 🧠 Example:
+
+Instead of writing full system:
+
+* Write small code
+* Test immediately
+* Fix immediately
+
+***
+
+## ✅ Simple Line:
+
+👉 **XP = Focus on strong coding practices + continuous testing**
+
+***
+
+# ✅ 3. Crystal Framework
+
+## 👉 What is Crystal?
+
+**Crystal = Agile framework focused on people and teamwork**
+
+***
+
+## ✅ Key Idea:
+
+👉 Different projects need different approaches
+
+***
+
+## 🧠 Example:
+
+* Small team → simple process
+* Large team → more structured process
+
+***
+
+## ✅ Focus:
+
+* Communication
+* Team interaction
+* Flexibility
+
+***
+
+## ✅ Simple Line:
+
+👉 **Crystal = Flexible Agile method based on team size and project need**
+
+***
+
+# 🔥 Final Comparison (Easy)
+
+| Framework | Main Idea                         |
+| --------- | --------------------------------- |
+| Scrum ⭐   | Work in fixed sprints             |
+| Kanban    | Continuous workflow (no sprint)   |
+| XP        | Strong coding + testing practices |
+| Crystal   | Focus on people & flexibility     |
+
+***
+
+# 🎯 Super Simple Summary
+
+👉 Agile = concept  
+👉 Scrum, Kanban, XP, Crystal = ways to follow Agile
+
+***
+
+## ✅ One-Line Interview Answer
+
+👉 **Agile is implemented using frameworks like Scrum, Kanban, XP, and Crystal, each providing different methods to manage work and deliver software efficiently.**
+
+***
+
+✅ If you want next:
+
+* Difference **Scrum vs Kanban (very important)**
+* Real company workflow explanation
+* Interview questions from Agile
+
+Just tell 👍
 
 
