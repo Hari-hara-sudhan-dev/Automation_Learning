@@ -273,3 +273,234 @@ If you want, next I can teach:
 ✅ SDLC models (Agile, Waterfall)  
 ✅ Difference between SDLC vs STLC (important for interview)
 
+## ✅ What is STLC?
+
+**STLC (Software Testing Life Cycle)** is a **step-by-step process followed by testers to test software properly and find defects (bugs)**.
+
+👉 Simple meaning:  
+**STLC = Process of testing software from start to end**
+
+***
+
+## 🧠 Easy Real-Life Example
+
+Testing a **Food Delivery App 🍔**
+
+* Check requirement → User should order food
+* Plan testing
+* Write test cases
+* Execute them
+* Find bugs
+* Fix & close
+
+➡️ This whole process = **STLC**
+
+***
+
+# 🔷 Phases of STLC (Step-by-Step)
+
+***
+
+## 🔹 1. Requirement Analysis
+
+### 👉 What happens?
+
+Tester studies **requirements from client**
+
+### ✅ Example:
+
+Requirement:
+
+* User should login
+* User should place order
+
+Tester identifies:
+
+* What needs testing?
+* What type of testing?
+
+👉 Simple line:  
+**Understand what to test**
+
+***
+
+## 🔹 2. Test Planning
+
+### 👉 What happens?
+
+Create a **plan for testing**
+
+### ✅ Includes:
+
+* Scope
+* Time
+* Tools (JIRA, Selenium)
+* Team
+
+### ✅ Example:
+
+* Test login + payment
+* Finish testing in 2 weeks
+
+👉 Simple line:  
+**Plan how to test**
+
+***
+
+## 🔹 3. Test Design (Test Case Writing)
+
+### 👉 What happens?
+
+Create:
+
+* Test scenarios
+* Test cases
+* Test data
+
+***
+
+### ✅ Example Test Case:
+
+| Step | Action         |
+| ---- | -------------- |
+| 1    | Enter username |
+| 2    | Enter password |
+| 3    | Click login    |
+
+Expected Result:
+➡️ User logged in successfully ✅
+
+👉 Simple line:  
+**Write how to test**
+
+***
+
+## 🔹 4. Test Environment Setup
+
+### 👉 What happens?
+
+Prepare system for testing
+
+### ✅ Example:
+
+* Install app
+* Setup server
+* Test in browser
+
+👉 Simple line:  
+**Get system ready**
+
+***
+
+## 🔹 5. Test Execution
+
+### 👉 What happens?
+
+Run test cases and check results
+
+### ✅ Example:
+
+* Login test → Pass ✅
+* Payment test → Fail ❌
+
+👉 Simple line:  
+**Actually test the software**
+
+***
+
+## 🔹 6. Defect Reporting (Bug Reporting)
+
+### 👉 What happens?
+
+If issue found → report bug
+
+### ✅ Example:
+
+Bug:
+
+* Payment failed
+
+Log in JIRA:
+
+* Description
+* Steps
+* Screenshot
+
+👉 Simple line:  
+**Report bugs**
+
+***
+
+## 🔹 7. Re-testing & Regression Testing
+
+### 👉 What happens?
+
+* **Re-testing** → check fixed bug
+* **Regression testing** → check old features still work
+
+### ✅ Example:
+
+* Payment bug fixed → retest
+* Check login still works
+
+👉 Simple line:  
+**Verify fixes + ensure nothing broke**
+
+***
+
+## 🔹 8. Test Closure
+
+### 👉 What happens?
+
+Finalize testing
+
+### ✅ Includes:
+
+* Test summary report
+* Bugs fixed count
+* Lessons learned
+
+👉 Simple line:  
+**Finish testing process**
+
+***
+
+# 🧠 Easy Memory Trick
+
+👉 **R P D E E D R R C**
+
+| Step | Meaning     |
+| ---- | ----------- |
+| R    | Requirement |
+| P    | Planning    |
+| D    | Design      |
+| E    | Environment |
+| E    | Execution   |
+| D    | Defect      |
+| R    | Retesting   |
+| R    | Regression  |
+| C    | Closure     |
+
+***
+
+# 🎯 Final Simple Summary
+
+👉 **STLC is the process followed by testers to ensure software works correctly without bugs**
+
+***
+
+# ✅ Interview One-Line Answer
+
+👉 **STLC is a systematic process of testing software, including requirement analysis, test planning, test design, execution, defect reporting, and closure.**
+
+***
+
+✅ If you want next:
+
+* Real **JIRA bug report example**
+* **Test case writing practice (very important for job)**
+* **Interview questions with answers**
+
+Just tell 👍
+
+
