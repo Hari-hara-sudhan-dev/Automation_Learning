@@ -791,6 +791,100 @@ Coding          ------>  Unit Testing
 
 ### ⚡ Quick memory trick:
 
+Great question 👍 — this comes from **V-Model mapping**. I’ll explain both clearly and simply.
+
+***
+
+# ✅ 1. Integration Testing (comes after Coding)
+
+### 👉 Definition:
+
+**Integration Testing checks whether different modules/components of the application work together correctly after coding.**
+
+***
+
+### ✅ Simple Example:
+
+Imagine a **Food Delivery App 🍔**
+
+Modules:
+
+* Login module
+* Cart module
+* Payment module
+
+👉 After coding:
+You test:
+
+* Login → add item → go to payment
+
+✅ Check → All modules connected properly
+
+***
+
+### ✅ In one line:
+
+👉 **Integration Testing = Testing the interaction between modules**
+
+***
+
+# ✅ 2. System Testing (comes after Design phase mapping)
+
+### 👉 Definition:
+
+**System Testing checks the complete application as a whole to ensure it meets all requirements.**
+
+***
+
+### ✅ Simple Example:
+
+Same Food App 🍔
+
+👉 Test entire system:
+
+* Login
+* Search food
+* Add to cart
+* Make payment
+* Track order
+
+✅ Check everything end-to-end
+
+***
+
+### ✅ In one line:
+
+👉 **System Testing = Testing the full application (end-to-end)**
+
+***
+
+# 🔥 Key Difference (Easy)
+
+| Integration Testing    | System Testing         |
+| ---------------------- | ---------------------- |
+| Tests modules together | Tests full system      |
+| Focus on connections   | Focus on complete flow |
+| Done earlier           | Done later             |
+
+***
+
+# 🎯 Easy Memory Tip
+
+👉 **Integration = "Integration between parts"**  
+👉 **System = "Entire system"**
+
+***
+
+✅ Interview short answer:
+
+* **Integration testing** verifies module interaction
+* **System testing** verifies the entire system functionality
+
+***
+
+If you want, I can draw the **V-Model diagram** for you (very helpful for interviews) 👍
+
+
 👉 “**Every build step has a test step**”
 
 ***
