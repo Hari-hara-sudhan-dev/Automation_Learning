@@ -503,4 +503,216 @@ Finalize testing
 
 Just tell 👍
 
+Great 👍 Let’s continue — I’ll teach you the **important next topics** clearly:
+
+***
+
+# ✅ 1. SDLC Models (Very Important for Interviews)
+
+SDLC models = **Different ways to follow the SDLC process**
+
+***
+
+## 🔹 1. Waterfall Model
+
+### 👉 Flow:
+
+➡️ Requirement → Design → Development → Testing → Deployment
+
+✅ Done step-by-step (no going back)
+
+***
+
+### ✅ Example:
+
+Building a **bridge**
+
+* First design
+* Then build
+* Then test
+
+You can't change later easily ❌
+
+***
+
+### ✅ Advantages:
+
+* Easy to understand
+* Simple for small projects
+
+### ❌ Disadvantages:
+
+* No flexibility
+* Changes are hard
+
+***
+
+## ✅ What is Agile?
+
+**Agile** is a way of developing software **step by step (in small parts)** instead of building everything at once.
+
+***
+
+### 👉 Simple explanation:
+
+👉 Agile means **working in small pieces, testing quickly, and improving continuously**
+
+***
+
+### ✅ Easy example:
+
+Instead of building a full app in 6 months and testing at the end ❌  
+Agile says:
+
+1. Build a small feature ✅
+2. Test it ✅
+3. Improve it ✅
+4. Then build next feature ✅
+
+***
+
+### 📱 Real-life example:
+
+Think of ordering food 🍕
+
+* Old way → Order everything, wait long, then see problems
+* Agile way → Order one dish, taste it, adjust, then order more
+
+***
+
+### ✅ Key points of Agile:
+
+* Work is done in **small parts (iterations / sprints)**
+* **Continuous testing and feedback**
+* Easy to **fix mistakes early**
+* Customer can see progress regularly
+
+***
+
+### ✅ In short:
+
+✔ Agile = **Build → Test → Improve → Repeat**
+
+***
+
+If you want, I can also explain **Scrum (most common Agile method)** in a very simple way 👍
+
+## 🔹 2. Agile Model ⭐ (MOST IMPORTANT)
+
+### 👉 What is Agile?
+
+Develop software in **small parts (iterations/sprints)**
+
+***
+
+### ✅ Example:
+
+Food Delivery App 🍔
+
+Instead of building full app:
+
+* Week 1 → Login
+* Week 2 → Order
+* Week 3 → Payment
+
+✅ Continuous development + testing
+
+***
+
+### ✅ Advantages:
+
+* Flexible
+* Faster delivery
+* Client feedback available
+
+### ❌ Disadvantages:
+
+* Needs experienced team
+
+***
+
+## 🔹 3. V-Model
+
+### 👉 What is V-Model?
+
+Testing is planned **parallel with development**
+
+***
+
+### ✅ Structure:
+
+| Development | Testing             |
+| ----------- | ------------------- |
+| Requirement | UAT                 |
+| Design      | System testing      |
+| Coding      | Integration testing |
+
+***
+
+### ✅ Example:
+
+While designing login → also plan login test cases
+
+***
+
+### ✅ Advantage:
+
+* Early bug detection
+
+***
+
+# 🧠 Easy Tip:
+
+* **Waterfall** → Old method
+* **Agile** → Modern & widely used ✅
+* **V-Model** → Testing focused
+
+***
+
+# ✅ 2. Difference Between SDLC vs STLC ⭐
+
+| Feature     | SDLC                            | STLC                        |
+| ----------- | ------------------------------- | --------------------------- |
+| Full Form   | Software Development Life Cycle | Software Testing Life Cycle |
+| Purpose     | Build software                  | Test software               |
+| Starts with | Requirements                    | Requirements                |
+| Ends with   | Maintenance                     | Test closure                |
+| Who works   | Developers + Testers            | Mainly Testers              |
+
+***
+
+## ✅ Simple 1-Line Answer (Interview Ready ✅)
+
+👉 **SDLC is the process of developing software, while STLC is the process of testing software.**
+
+***
+
+## ✅ Real-Life Example:
+
+👉 SDLC:
+
+* Build a **mobile app**
+
+👉 STLC:
+
+* Check whether app works correctly
+
+***
+
+# 🎯 Final Summary
+
+* SDLC models = ways to develop software
+* Agile = most important model ✅
+* SDLC builds → STLC tests
+
+***
+
+✅ Next, I can teach you:
+
+* Full **STLC phases in detail**
+* How to **write real test cases (like job level)**
+* **JIRA practical demo**
+
+Just tell 👍
+
 
