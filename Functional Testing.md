@@ -1404,5 +1404,198 @@ Instead of writing full system:
 * Interview questions from Agile
 
 Just tell 👍
+## ✅ What is SRS?
 
+**SRS** stands for **Software Requirements Specification**.
+
+***
+
+## 🔷 Simple meaning:
+
+👉 SRS is a **document that clearly explains what the software should do**
+
+***
+
+## ✅ Easy explanation:
+
+Before building software, we write an SRS to answer:
+
+* What features are needed?
+* How should the system behave?
+* What are the user requirements?
+
+***
+
+## 📌 Example:
+
+For a **Login System**, SRS will include:
+
+* User should enter username & password
+* System should validate credentials
+* Show error for invalid login
+* Allow password reset
+
+***
+
+## ✅ Why SRS is important:
+
+* ✅ Gives clear understanding to developers
+* ✅ Helps testers know what to test
+* ✅ Reduces confusion
+* ✅ Avoids mistakes during development
+
+***
+
+## ✅ Key points:
+
+* Written before development starts
+* Acts like a **blueprint**
+* Used by **developers, testers, and clients**
+
+***
+
+## ✅ In short:
+
+👉 **SRS = Detailed document of software requirements**
+
+***
+
+💡 **Memory trick:**  
+“SRS = What the Software Should Do”
+
+***
+
+If you want, I can show you a **simple SRS format/template used in interviews or projects** 👍
+
+
+## ✅ What is Ad-hoc Testing?
+
+**Ad-hoc testing** is a type of testing where we **test the application randomly without any plan or test cases**.
+
+***
+
+## 🔷 Simple meaning:
+
+👉 **No rules, no documentation — just test freely to find bugs**
+
+***
+
+## ✅ Easy example:
+
+Imagine a **login page**:
+
+Instead of following test cases, you try random things like:
+
+* Enter special characters (!@#)
+* Leave fields empty
+* Enter very long username
+
+👉 If something crashes → ✅ Bug found!
+
+***
+
+## ✅ Key idea:
+
+* Tester uses **experience and intuition**
+* No predefined steps
+* Goal is to **find hidden defects quickly**
+
+***
+
+## ✅ Why we use it:
+
+* ✅ To find **unexpected bugs**
+* ✅ To test quickly when time is less
+* ✅ To explore application behavior
+
+***
+
+## ✅ Advantages:
+
+* ✅ Fast and easy
+* ✅ No need preparation
+* ✅ Can find critical bugs
+
+***
+
+## ❌ Disadvantages:
+
+* ❌ Not structured
+* ❌ Difficult to repeat testing
+* ❌ No documentation
+
+***
+
+## ✅ In short:
+
+👉 **Ad-hoc testing = Random testing without planning**
+
+***
+
+💡 **Memory trick:**
+“Ad-hoc = Act without plan”
+
+***
+
+If you want, I can also explain **re-testing** (maybe that's what you meant by "re testing") in a simple way 👍
+
+## ✅ What is Re-Testing?
+
+**Re-testing** is the process of **testing a bug again after it has been fixed** to make sure it is working correctly.
+
+***
+
+## 🔷 Simple meaning:
+
+👉 **Check the same bug again after the fix**
+
+***
+
+## ✅ Easy example:
+
+1. You find a bug in login  
+   ❌ Login fails with correct password
+
+2. Developer fixes it ✅
+
+3. You test again
+
+👉 If login works now → ✅ Bug is fixed (Re-testing done)
+
+***
+
+## ✅ Key points:
+
+* Done **after bug is fixed**
+* Focuses on **same test case**
+* Ensures the **bug is removed**
+
+***
+
+## ✅ Why we use it:
+
+* ✅ To confirm bug is fixed
+* ✅ To make sure issue does not happen again
+
+***
+
+## ✅ In short:
+
+👉 **Re-testing = Testing the fixed bug again**
+
+***
+
+💡 **Memory trick:**
+“Re = Repeat → Test again”
+
+***
+
+✅ **Note (important difference):**
+
+* **Re-testing** = Check fixed bug again
+* **Regression testing** = Check if other parts are not affected
+
+***
+
+If you want, I can clearly explain **Re-testing vs Regression testing** (very common interview question) 👍
 
