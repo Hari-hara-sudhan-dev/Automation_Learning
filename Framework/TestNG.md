@@ -614,6 +614,56 @@ public void test(@Optional("defaultUser") String user) {
 * `@DataProvider` → Multiple inputs from code
 
 ***
+### ✅ Apache POI – Only Syntax (Read & Write)
+
+***
+
+# ✅ Read Excel Syntax
+
+```java
+FileInputStream fis = new FileInputStream("file.xlsx");
+XSSFWorkbook workbook = new XSSFWorkbook(fis);
+XSSFSheet sheet = workbook.getSheet("Sheet1");
+
+int rows = sheet.getPhysicalNumberOfRows();
+
+for (int i = 0; i < rows; i++) {
+    XSSFRow row = sheet.getRow(i);
+
+    for (int j = 0; j < row.getPhysicalNumberOfCells(); j++) {
+        XSSFCell cell = row.getCell(j);
+        System.out.print(cell.toString() + " ");
+    }
+    System.out.println();
+}
+
+workbook.close();
+fis.close();
+```
+
+***
+
+# ✅ Write Excel Syntax
+
+```java
+XSSFWorkbook workbook = new XSSFWorkbook();
+XSSFSheet sheet = workbook.createSheet("Sheet1");
+
+XSSFRow row = sheet.createRow(0);
+row.createCell(0).setCellValue("Username");
+row.createCell(1).setCellValue("Password");
+
+FileOutputStream fos = new FileOutputStream("output.xlsx");
+workbook.write(fos);
+
+fos.close();
+workbook.close();
+```
+
+***
+
+✅ Done — only syntax as requested 👍
+
 
 ✅ If you want next, I can show:
 
