@@ -146,9 +146,148 @@ Think like this:
 * `@AfterTest` → Cleanup
 * `@AfterSuite` → Report
 
+### ✅ What is Assertion in TestNG?
+
+👉 **Assertion** is used to **verify expected vs actual result** in your test.
+
+> If the condition is **true → test passes ✅**  
+> If the condition is **false → test fails ❌**
+
 ***
 
-✅ If you want next, I can convert this into:
+# ✅ Simple Definition
 
-* **Interview cheat sheet PDF**
-* OR **diagram (flowchart) for easy understanding**
+> **Assertion is a validation step in TestNG to check whether application behavior is correct or not.**
+
+***
+
+# ✅ Types of Assertions in TestNG
+
+### 1. ✅ Hard Assertion (Most Important)
+
+* If assertion **fails → test stops immediately**
+* Remaining code will NOT execute
+
+### Example:
+
+```java
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+public class HardAssertionExample {
+
+    @Test
+    public void testLogin() {
+
+        String expected = "Home";
+        String actual = "Dashboard";
+
+        System.out.println("Before Assertion");
+
+        Assert.assertEquals(actual, expected); // ❌ Fail
+
+        System.out.println("After Assertion"); // ❌ This will NOT run
+    }
+}
+```
+
+***
+
+# ✅ Common Hard Assertions
+
+```java
+Assert.assertEquals(actual, expected);
+Assert.assertNotEquals(actual, expected);
+Assert.assertTrue(condition);
+Assert.assertFalse(condition);
+Assert.assertNull(object);
+Assert.assertNotNull(object);
+```
+
+***
+
+# ✅ 2. Soft Assertion
+
+* If assertion fails → test **continues execution**
+* At end we must call **assertAll()**
+
+### Example:
+
+```java
+import org.testng.asserts.SoftAssert;
+import org.testng.annotations.Test;
+
+public class SoftAssertionExample {
+
+    @Test
+    public void testProfile() {
+
+        SoftAssert sa = new SoftAssert();
+
+        System.out.println("Before Assertion");
+
+        sa.assertEquals("Hello", "Hi"); // ❌ Fail
+        System.out.println("After First Assertion");
+
+        sa.assertTrue(5 > 3); // ✅ Pass
+        System.out.println("After Second Assertion");
+
+        sa.assertAll(); // ✅ Important (final result)
+    }
+}
+```
+
+***
+
+# ✅ Real-Time Example (Login Application)
+
+```java
+@Test
+public void loginTest() {
+
+    driver.get("https://example.com/login");
+
+    driver.findElement(By.id("username")).sendKeys("user");
+    driver.findElement(By.id("password")).sendKeys("password");
+    driver.findElement(By.id("loginBtn")).click();
+
+    // ✅ Assertion (Validation)
+    String expectedTitle = "Dashboard";
+    String actualTitle = driver.getTitle();
+
+    Assert.assertEquals(actualTitle, expectedTitle);
+
+    System.out.println("Login Successful");
+}
+```
+
+***
+
+# ✅ Hard vs Soft Assertion (Interview Table)
+
+| Feature          | Hard Assert          | Soft Assert          |
+| ---------------- | -------------------- | -------------------- |
+| Failure behavior | Stops execution      | Continues execution  |
+| Usage            | Critical validations | Multiple validations |
+| Method required  | Direct assert        | `assertAll()` needed |
+
+***
+
+# ✅ Real Project Usage
+
+| Scenario                 | Assertion Used |
+| ------------------------ | -------------- |
+| Page title validation    | `assertEquals` |
+| Button enabled check     | `assertTrue`   |
+| Error message validation | `assertEquals` |
+| Multiple UI checks       | Soft Assert    |
+
+***
+
+# ✅ Interview Answer (Best)
+
+👉 **What is Assertion?**
+
+> Assertion is used to validate expected and actual results. If the validation fails, the test case will be marked as failed.
+
+***
